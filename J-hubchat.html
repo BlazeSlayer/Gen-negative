@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<script id="messenger-widget-b" src="https://cdn.botpenguin.com/website-bot.js" defer>6686a32f113d5202a60eb4eb,6686a2fcc99e1f03d85075e9</script>
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Reviews</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(270deg, #0074D9, #FFA500, #FF6347, #00CED1);
+            background-size: 800% 800%;
+            animation: gradientBackground 10s ease infinite;
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        
+        @keyframes gradientBackground {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .container {
+            padding: 50px;
+        }
+
+        input, textarea {
+            background-color: white;
+            color: black;
+            font-size: 16px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>Customer Reviews</h3>
+        <!-- Start BawkBox Code -->
+        <script data-sil-id="645a6bfc54f77f0013cda487">
+            (function() {
+                var loadWidget = function() {
+                    var d = document, w = window, l = window.location;
+                    var p = l.protocol === "file:" ? "http://" : "//";
+
+                    if (!w.WS) w.WS = {};
+                    var c = w.WS;
+
+                    var m = function(t, o) {
+                        var e = d.getElementsByTagName("script");
+                        e = e[e.length - 1];
+                        var n = d.createElement(t);
+                        if (t === "script") { n.async = true; }
+                        for (var k in o) {
+                            if (o.hasOwnProperty(k)) { n[k] = o[k]; }
+                        }
+                        e.parentNode.insertBefore(n, e);
+                    };
+
+                    m("script", {
+                        src: p + "bawkbox.com/widget/star-rating/645a6bfc54f77f0013cda487?page=" + encodeURIComponent(l),
+                        type: 'text/javascript'
+                    });
+
+                    c.load_net = m;
+                };
+
+                if (window.Squarespace) {
+                    document.addEventListener('DOMContentLoaded', loadWidget);
+                    setTimeout(loadWidget, 3000);
+                } else {
+                    loadWidget();
+                }
+            })();
+        </script>
+        <script type="application/ld+json" src="//bawkbox.com/widget/star-rating/645a6bfc54f77f0013cda487/microdata"></script>
+        <div class="sil-widget-star-rating sil-widget" id="sil-widget-645a6bfc54f77f0013cda487">
+            <a href="//bawkbox.com/install/star-rating">Customer Reviews</a>
+        </div>
+        <!-- End BawkBox Code -->
+    </div>
+</body>
+</html>

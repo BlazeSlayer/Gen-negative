@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF content="width=device-width, initial-scale=1.0">
+  <title>Rammerhead Proxy</title>
+  <style>
+    /* Reset page margins */
+    html, body {
+      /* Set iframe properties */
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100vh; /* Full viewport height */
+      border: none;
+    }
+  </style>
+  <script>
+    // Disable right-click context menu
+    window.addEventListener('contextmenu', function(event) {
+      event.preventDefault();
+    });
+    // Disable certain key combinations
+    window.addEventListener('keydown', function(event) {
+      if (event.ctrlKey || event.altKey || event.metaKey || event.key === 'Tab') {
+        event.preventDefault();
+      }
+    });
+  </script>
+</head>
+<body>
+  <iframe src="https://a.isellkids.store/"></iframe>
+</body>
+</html>
